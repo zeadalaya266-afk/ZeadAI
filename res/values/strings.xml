@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zead AI</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="byok_title">BYOK - Bring Your Own Key</string>
+    <string name="byok_subtitle">مفتاحك يُشفّر محلياً بتقنية AES-256 ولا يُرسل لأي سيرفر وسيط.</string>
+    <string name="api_key_hint">مفتاح Gemini API</string>
+    <string name="save_button">حفظ</string>
+    <string name="test_button">اختبار الاتصال</string>
+    <string name="signature">Designed by Mhamad zead alaya</string>
+    <string name="api_key_saved">تم حفظ المفتاح بشكل مشفر بنجاح</string>
+    <string name="test_success">الاتصال بـ Gemini API ناجح</string>
+    <string name="error_key_empty">الرجاء إدخال المفتاح أولاً</string>
+    <string name="error_save_failed">فشل الحفظ: %1$s</string>
+    <string name="error_connection_failed">فشل الاتصال: %1$s</string>
+</resources>
