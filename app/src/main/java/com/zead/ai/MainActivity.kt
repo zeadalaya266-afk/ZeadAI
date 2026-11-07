@@ -2,15 +2,16 @@ package com.zead.ai
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.zead.ai.ui.settings.SettingsFragment
+import com.zead.ai.ui.chat.ChatFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SettingsFragment())
+                .replace(R.id.fragment_container, ChatFragment())
                 .commit()
         }
     }
